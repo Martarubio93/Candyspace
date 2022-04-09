@@ -1,0 +1,18 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
+
+    @media (min-width:768px) {
+        padding-bottom: 90px;
+        padding-top: 90px;
+    }
+
+    &__itemContainer {
+        display: flex;
+
+    }
+}
