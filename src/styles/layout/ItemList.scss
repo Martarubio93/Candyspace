@@ -1,0 +1,51 @@
+.itemContainer {
+    display: grid;
+    margin-bottom: 22px;
+
+    @media (min-width:768px) {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    &__img {
+
+        &--item {
+            width: 180px;
+            height: 180px;
+
+            @media (min-width:768px) {
+                width: 400px;
+                height: 400px;
+            }
+
+        }
+    }
+
+    &__info {
+        width: 180px;
+        height: 180px;
+        background-color: #EEEEEE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (min-width:768px) {
+            width: 400px;
+            height: 400px;
+
+        }
+
+        &--item {
+            font-size: 12px;
+            color: #5B5B5B;
+            padding: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+
+            @media (min-width: 768px) {
+                font-size: 22px;
+            }
+        }
+
+    }
+
+}

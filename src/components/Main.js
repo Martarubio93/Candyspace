@@ -13,7 +13,7 @@ const Main = (props) => {
   return (
     <main>
       <div className="mainContainer">
-        <div className="itemsContainer">{renderList()}</div>
+        {renderList()}
       </div>
     </main>
   );
