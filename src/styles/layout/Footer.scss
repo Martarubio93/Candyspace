@@ -2,15 +2,16 @@
 @import '../core/Variables.scss';
 
 
-.footer{
+.footer {
     position: relative;
     bottom: 0;
     width: 100%;
     padding: 20px;
     font-family: $font;
-    background-color:$footerBackgroundColor;
-    color: $textColor;
-    &__small{
+    background-color: $darkColor;
+    color: $textFooterColor;
+
+    &__small {
         font-size: 14px;
     }
 

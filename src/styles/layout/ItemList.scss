@@ -3,13 +3,16 @@
 .itemContainer {
     display: grid;
     margin-bottom: 22px;
+
     &:hover {
         transform: scale(1.02);
         transition: transform 0.2s ease;
     }
+
     @media (min-width:768px) {
         grid-template-columns: 1fr 1fr;
     }
+
     &__img {
         display: inline-flex;
         justify-content: flex-end;
@@ -50,7 +53,7 @@
 
         &--item {
             font-size: 16px;
-            color: $textColor;
+            color: $darkColor;
             padding: 8px;
             font-family: $font;
 
