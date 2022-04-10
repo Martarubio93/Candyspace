@@ -7,9 +7,9 @@
     bottom: 0;
     width: 100%;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:$footerBackgroundColor ;
-    color: $footerTextColor;
+    font-family: $font;
+    background-color:$footerBackgroundColor;
+    color: $textColor;
     &__small{
         font-size: 14px;
     }

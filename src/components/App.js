@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 //Services
 import CallToApi from '../services/CallToApi';
 //Functionals
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
 
 
 
@@ -23,10 +23,11 @@ function App() {
   }, [])
 
 
+
   return (
     <div className="App">
     <Header/>
-    <Main dataFromApi={dataFromApi}/>
+      <Main dataFromApi={dataFromApi}/>
     <Footer/>
     </div>
   );

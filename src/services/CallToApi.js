@@ -7,7 +7,6 @@ const CallToApi = () => {
           id: item.id,
           title: item.title,
           largeImage: item.url,
-          smallImage: item.thumbnailUrl,
         };
       });
       return results;
