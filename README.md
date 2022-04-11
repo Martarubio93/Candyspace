@@ -3,7 +3,7 @@
 ## About The Project
 
 This project features a responsive website with data consumed by an [API](https://jsonplaceholder.typicode.com/photos),
-which returns information on the first 20 items. this application has been developed using React js and divided into different components. The project took on average 1.5 hours to complete.
+which returns information on the first 20 items. This application has been developed using React js and divided into different components. The project took on average 1.5 hours to complete.
 
 ## Directory Structure
 
